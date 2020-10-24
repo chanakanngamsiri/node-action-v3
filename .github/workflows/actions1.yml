@@ -12,7 +12,7 @@ on: #จะถูกเรียกขึ้นมาทำงานก็ต่
 jobs:
   build: #จะทำการbluid ได้ก็ต่อเมื่อทำการต่างๆตามนี้นะ
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #จะ run บนอะไร
 
     strategy:
       matrix: #เป็นการอยากจะtest แบบเลือกได้หลายๆ version 
