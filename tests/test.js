@@ -8,8 +8,8 @@ describe('Validate setting the test', () => {
     })
 })
 
-describe('get "/"', () => {
-    it('respond with Hello!', (done) =>{
-        Request(app).get('/').expect('Hello!',done)
+describe('GET "/"', () => {
+    it('respond with Hello!', (done) => {
+        request(app).get('/').expect('Hello!',done)
     })
 })
